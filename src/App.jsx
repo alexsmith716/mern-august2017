@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Header/>
+        <h1>Header!!</h1>
         <div className="container-fluid">
           <hr />
           <h5><small>
