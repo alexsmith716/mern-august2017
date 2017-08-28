@@ -2,10 +2,14 @@
   "name": "mern-august2017",
   "version": "1.0.0",
   "description": "mern-august2017 repo project.",
-  "main": "index.js",
   "repository": "https://github.com",
   "author": "AlexSmith716",
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "watch-compile": "node_modules/.bin/webpack -w -d",
+    "compile": "node_modules/.bin/webpack"
+  },
   "dependencies": {
     "body-parser": "^1.17.2",
     "dotenv": "^4.0.0",
